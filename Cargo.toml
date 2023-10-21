@@ -1,0 +1,13 @@
+[package]
+name = "beautiful"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nalgebra = "0.32.3"
+gdal = {features = ["bindgen"], version = "0.16.0"}
+gdal-sys = { version = "0.9.1", features = ["bindgen"] }
+ndarray = "0.15.6"
+memmap = "0.7.0"
